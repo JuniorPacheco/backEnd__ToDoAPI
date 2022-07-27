@@ -15,18 +15,6 @@
 -DELETE (Eliminar una tarea en especifico)
 
 3. Controladores
-
-```javascript
-    const getAllTasks = () => {
-        return tasksDB
-    }
-    const index = todoDB.findIndex((item, index) => {
-        if(item.id === id) {
-            return index
-        }
-    })
-```
-
 4. Crear los servicios
 5. Crear las rutas
 

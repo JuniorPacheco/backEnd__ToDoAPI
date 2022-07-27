@@ -24,6 +24,7 @@ const getById = (req, res) => {
     }
 }
 
+// Crea un tarea
 const create = (req, res) => {
     const data = req.body
     const result = createTask(data)
@@ -34,6 +35,7 @@ const create = (req, res) => {
     }
 }
 
+//Actualiza el estado de una tarea
 const update = (req, res) => {
     const data = req.body
     const result = updateTask(data)
@@ -44,6 +46,7 @@ const update = (req, res) => {
     }
 }
 
+//Elimina una tarea
 const deleteById = (req, res) => {
     const dataId = Number(req.params.id)
     if(dataId) {
